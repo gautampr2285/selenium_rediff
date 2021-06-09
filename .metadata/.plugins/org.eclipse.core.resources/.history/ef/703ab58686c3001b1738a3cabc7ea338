@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Portfolio_Suite">
+ <listeners>
+    <listener class-name="listener.CustomListner"/>
+  </listeners>
+  <test name="Add_new_stock">
+    <classes>
+      <class name="testRediff.PortFolioManagement">
+       <methods>
+       		<include name = "selectPortfolio"/>
+       </methods>
+      </class>
+      
+      <class name="testRediff.StockManagement">
+       <methods>
+       		<include name = "AddStock"/>
+       		<include name = "VerifyStockInList"/>
+       		
+       		
+       </methods>
+      </class>
+      
+    </classes>
+   </test>
+  <!--test name="Select_Portfolio">
+    <classes>
+      
+      <class name="testRediff.PortFolioManagement">
+       <methods>
+       		<include name = "selectPortfolio"/>
+       </methods>
+      </class>
+      
+    </classes>  
+  </test-->
+  
+</suite> <!-- Portfolio_Suite -->

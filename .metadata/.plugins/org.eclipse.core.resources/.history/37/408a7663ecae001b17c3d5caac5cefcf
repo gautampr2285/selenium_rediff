@@ -1,0 +1,22 @@
+package explicitWait;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.testng.annotations.Test;
+
+import base.TestBase;
+
+public class Waiting extends TestBase{
+	
+	@Test
+	
+	public void Explicit() {
+		
+		launchbrowser("Chrome");
+		driver.get("https://www.awwwards.com/");
+		driver.findElement(By.xpath("//a[@class='text-black open_login']")).click();
+		driver.findElement(By.name("_username")).sendKeys("dfdfsf");
+		
+	}
+
+}

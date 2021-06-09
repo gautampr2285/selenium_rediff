@@ -1,0 +1,79 @@
+package testRediff;
+
+import org.testng.ITestContext;
+import org.testng.annotations.Test;
+
+import testBase.BaseTest;
+
+public class StockManagement extends BaseTest {
+	
+	@Test
+	
+	public void AddStock(ITestContext context) throws InterruptedException {
+		
+		String Company_name = "Bharti Airtel Ltd";
+		String Date_Of_Purchase = "24-04-2021";
+		String Quantity_to_add="100";
+		String Purchase_price="50";
+		String name = "Bharti Airtel";
+		
+		int quantityBeforeAdding = apps.CurrentStockQuantity(name);
+		System.out.println("Current quanttiy of "+name+ "is : "+quantityBeforeAdding);
+		context.setAttribute("qunatityBeforeadding", quantityBeforeAdding);
+		apps.log("quantity before adding is "+quantityBeforeAdding);
+		apps.click("Add_Button_xpath");
+		apps.type("Stock_Name_xpath", Company_name);
+		try {
+			Thread.sleep(2000);
+		} catch (Exception e) {
+
+			e.printStackTrace();
+		}
+		apps.EnterPress("Stock_Name_xpath");
+		Thread.sleep(2000);
+		apps.click("calendar_click_xpath");
+		apps.DateSelect("date_display_xpath", Date_Of_Purchase);
+		//apps.type("Stock_purchase_xpath", Date_Of_Purchase);
+		apps.type("addstockqty_xpath", Quantity_to_add);
+		apps.type("addstockprice_xpath", Purchase_price);
+		apps.click("addStockButton_xpath");
+		apps.log("Stocks added successfully");
+		//apps.WaitforElementToLoad();
+		
+		
+		
+		
+	}
+	
+	@Test
+	
+		public void VerifyStockInList() {
+		
+		
+		
+	}
+	
+	@Test
+	
+	public void ModifyStock() {
+		
+	}
+	
+	
+	
+	@Test
+	
+	public void verifyQuantity() {
+		
+		
+			
+	}
+	
+	@Test
+	
+	public void TransactionHistory() {
+		
+			
+	}
+
+}

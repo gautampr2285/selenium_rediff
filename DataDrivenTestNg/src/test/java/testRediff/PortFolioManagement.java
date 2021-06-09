@@ -1,0 +1,57 @@
+package testRediff;
+
+import org.testng.annotations.Test;
+
+import com.aventstack.extentreports.Status;
+
+import testBase.BaseTest;
+
+public class PortFolioManagement extends BaseTest{
+	
+	@Test
+	
+	public void createPortfolio() throws InterruptedException {
+		
+		String portfolio_name= "gautam21";
+		
+		//System.out.println("creating portfolio");
+		test.log(Status.INFO, "Creating Portfolio");
+		apps.click("create_portfolio_xpath");
+		apps.clear("portfolio_name_xpath");
+		//apps.ValidateDropDOwn("drop_down_xpath");
+		apps.type("portfolio_name_xpath", portfolio_name);
+		apps.click("submit_portfolio_xpath");
+		Thread.sleep(5000);
+		apps.WaitforElementToLoad();
+		apps.ValidateDropDown("drop_down_xpath", portfolio_name);
+				
+	}
+	
+	@Test
+	
+	public void deleteportfolio() {
+		
+		test.log(Status.INFO, "Deleting portfolio");
+		String portfolio_name= "gautam21";
+		apps.selectfromdropdown("drop_down_xpath", portfolio_name);
+		apps.WaitforElementToLoad();
+		apps.click("delete_button_xpath");
+		apps.acceptAlert();
+		apps.WaitforElementToLoad();
+		apps.ValidateDropDown("drop_down_xpath", portfolio_name);
+		
+	}
+	
+	@Test
+	public void selectPortfolio() {
+		
+		test.log(Status.INFO, "Deleting portfolio");
+		String portfolio_name= "gautam21";
+		apps.selectfromdropdown("drop_down_xpath", portfolio_name);
+		apps.WaitforElementToLoad();
+		
+	}
+	
+	
+
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;ReportManager.java&apos; to &apos;DataDrivenTestNg/src/main/java/reports&apos;&#x0D;&#x0A;- Original project: &apos;ExtentReport&apos;&#x0D;&#x0A;- Destination element: &apos;DataDrivenTestNg/src/main/java/reports&apos;&#x0D;&#x0A;- Original element: &apos;reports.ReportManager.java&apos;" description="Copy compilation unit" destination="=DataDrivenTestNg/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;reports" element1="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;reports{ReportManager.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1621750097652" units="1" version="1.0"/>
+</session>

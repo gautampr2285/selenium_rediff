@@ -1,0 +1,58 @@
+package runner;
+
+import java.util.List;
+import java.util.Map;
+
+import org.testng.TestNG;
+import org.testng.xml.XmlClass;
+import org.testng.xml.XmlSuite;
+import org.testng.xml.XmlTest;
+
+public class TestNgRunner {
+	
+	TestNG testng;
+	XmlSuite suite; //single suite
+	List<XmlSuite> allsuites; //list of all suites
+	XmlTest test; //single test case
+	List<XmlTest> allTestCase; //list of all test cases under a test suite
+	Map<String,String> testParam;
+	List<XmlClass> classes;// all the classes inside the test.	
+
+
+
+	public TestNgRunner(int suiteThreadPool) {
+		// TODO Auto-generated constructor stub
+	}
+
+	public void createSuiteName(String suiteName, boolean parallelTest) {
+		// create suite Name.
+		//boolean : it will help to run the test in parallel. If true test will parallel if not will not run.
+		
+	}
+	
+	public void addTest(String TestName) {
+		//this finction will have test under the particular suite.
+		
+		
+	}
+	
+	
+	public void addTestParam(String name,String value) {
+		
+		
+	}
+	
+	
+	public void addTestClass(String ClassName,List<String> includedMethods) {
+		//this will add test class and methods under the one test.
+		//includedMethods will add methods in the test.
+		
+	}
+
+
+
+	public void addListner(String listener) {
+		// TODO Auto-generated method stub
+		
+	}
+}

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+  <test name="Dependency">
+    <groups>
+    	<dependencies>
+    		<group depends-on ="searchproduct" name = "select"></group>
+    		<group depends-on ="select" name = "buyproduct"></group>
+    		<group depends-on ="buyproduct" name ="confirmemail"></group>
+    	</dependencies>
+    </groups>	
+    	
+    <classes>
+      <class name="depedency.Dependency"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

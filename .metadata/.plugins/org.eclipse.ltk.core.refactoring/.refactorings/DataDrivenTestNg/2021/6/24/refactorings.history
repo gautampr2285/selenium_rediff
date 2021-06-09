@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete 4 elements from project &apos;DataDrivenTestNg&apos;&#x0D;&#x0A;- Original project: &apos;DataDrivenTestNg&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     Sun May 30 11-19-48 IST 2021&#x0D;&#x0A;     Sun May 30 11-22-06 IST 2021&#x0D;&#x0A;     Sun May 30 11-24-10 IST 2021&#x0D;&#x0A;     Sun May 30 11-26-21 IST 2021" description="Delete elements" element1="Reports/Sun May 30 11-19-48 IST 2021" element2="Reports/Sun May 30 11-22-06 IST 2021" element3="Reports/Sun May 30 11-24-10 IST 2021" element4="Reports/Sun May 30 11-26-21 IST 2021" elements="0" flags="589830" id="org.eclipse.jdt.ui.delete" resources="4" stamp="1623042083675" subPackages="false" version="1.0"/>
+</session>

@@ -1,0 +1,22 @@
+package temp;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Count {
+
+	public static void main(String[] args) {
+		
+		WebDriver driver = new ChromeDriver();
+		
+		System.setProperty("webdriver.chrome.driver","C:\\Softwares\\driver\\chromedriver.exe");
+		driver.get("https://portfolio.rediff.com/portfolio-login");
+		driver.findElement(By.xpath("//input[@id='useremail']")).sendKeys("ashishthakur1983");
+		driver.findElement(By.id("userpass")).sendKeys("pass@1234");
+		driver.findElement(By.xpath("//input[@id='loginsubmit']")).click();
+		
+
+	}
+
+}

@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="11" passed="10" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-04-26T13:06:30 IST" name="Suite" finished-at="2021-04-26T13:06:30 IST" duration-ms="0">
+    <groups>
+    </groups>
+  </suite> <!-- Suite -->
+  <suite started-at="2021-04-26T13:06:30 IST" name="Suite (1)" finished-at="2021-04-26T13:06:30 IST" duration-ms="31">
+    <groups>
+      <group name="browsergroup2">
+        <method signature="TestB.testB(java.lang.String, java.lang.String)[pri:0, instance:suiteb.TestB@446293d]" name="testB" class="suiteb.TestB"/>
+        <method signature="TestBB.testBB(java.lang.String, java.lang.String)[pri:0, instance:suiteb.TestBB@6babf3bf]" name="testBB" class="suiteb.TestBB"/>
+      </group> <!-- browsergroup2 -->
+      <group name="smoke">
+        <method signature="TestB.testB(java.lang.String, java.lang.String)[pri:0, instance:suiteb.TestB@446293d]" name="testB" class="suiteb.TestB"/>
+      </group> <!-- smoke -->
+      <group name="sanity">
+        <method signature="TestBB.testBB(java.lang.String, java.lang.String)[pri:0, instance:suiteb.TestBB@6babf3bf]" name="testBB" class="suiteb.TestBB"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2021-04-26T13:06:30 IST" name="Test B" finished-at="2021-04-26T13:06:30 IST" duration-ms="11">
+      <class name="suiteb.TestB">
+        <test-method is-config="true" signature="init(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:suiteb.TestB@446293d]" started-at="2021-04-26T13:06:30 IST" name="init" finished-at="2021-04-26T13:06:30 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@59cba5a]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=TestB.testB(java.lang.String, java.lang.String)[pri:0, instance:suiteb.TestB@446293d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="testB(java.lang.String, java.lang.String)[pri:0, instance:suiteb.TestB@446293d]" started-at="2021-04-26T13:06:30 IST" name="testB" data-provider="datasuiteB" finished-at="2021-04-26T13:06:30 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[USer 1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[USer 2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testB -->
+        <test-method signature="testB(java.lang.String, java.lang.String)[pri:0, instance:suiteb.TestB@446293d]" started-at="2021-04-26T13:06:30 IST" name="testB" data-provider="datasuiteB" finished-at="2021-04-26T13:06:30 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pwd 1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pwd 2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testB -->
+        <test-method is-config="true" signature="init(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:suiteb.TestB@446293d]" started-at="2021-04-26T13:06:30 IST" name="init" finished-at="2021-04-26T13:06:30 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@59cba5a]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=TestB.testB(java.lang.String, java.lang.String)[pri:0, instance:suiteb.TestB@446293d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+      </class> <!-- suiteb.TestB -->
+    </test> <!-- Test B -->
+    <test started-at="2021-04-26T13:06:30 IST" name="Test BB" finished-at="2021-04-26T13:06:30 IST" duration-ms="13">
+      <class name="suiteb.TestBB">
+        <test-method signature="testBB(java.lang.String, java.lang.String)[pri:0, instance:suiteb.TestBB@6babf3bf]" started-at="2021-04-26T13:06:30 IST" name="testBB" data-provider="datasuiteB" finished-at="2021-04-26T13:06:30 IST" duration-ms="6" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[USer 1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[USer 2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBB -->
+        <test-method is-config="true" signature="init(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:suiteb.TestBB@6babf3bf]" started-at="2021-04-26T13:06:30 IST" name="init" finished-at="2021-04-26T13:06:30 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@119cbf96]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=TestBB.testBB(java.lang.String, java.lang.String)[pri:0, instance:suiteb.TestBB@6babf3bf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method is-config="true" signature="init(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:suiteb.TestBB@6babf3bf]" started-at="2021-04-26T13:06:30 IST" name="init" finished-at="2021-04-26T13:06:30 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@119cbf96]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=TestBB.testBB(java.lang.String, java.lang.String)[pri:0, instance:suiteb.TestBB@6babf3bf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="testBB(java.lang.String, java.lang.String)[pri:0, instance:suiteb.TestBB@6babf3bf]" started-at="2021-04-26T13:06:30 IST" name="testBB" data-provider="datasuiteB" finished-at="2021-04-26T13:06:30 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pwd 1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pwd 2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBB -->
+      </class> <!-- suiteb.TestBB -->
+    </test> <!-- Test BB -->
+  </suite> <!-- Suite (1) -->
+  <suite started-at="2021-04-26T13:06:26 IST" name="Suite (0)" finished-at="2021-04-26T13:06:30 IST" duration-ms="4318">
+    <groups>
+      <group name="browsergroup1">
+        <method signature="TestA.testA(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:suitea.TestA@4e7912d8]" name="testA" class="suitea.TestA"/>
+        <method signature="TestAA.testAA(java.lang.String, java.lang.String)[pri:0, instance:suitea.TestAA@20f5239f]" name="testAA" class="suitea.TestAA"/>
+      </group> <!-- browsergroup1 -->
+      <group name="smoke">
+        <method signature="TestA.testA(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:suitea.TestA@4e7912d8]" name="testA" class="suitea.TestA"/>
+      </group> <!-- smoke -->
+      <group name="sanity">
+        <method signature="TestAA.testAA(java.lang.String, java.lang.String)[pri:0, instance:suitea.TestAA@20f5239f]" name="testAA" class="suitea.TestAA"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2021-04-26T13:06:26 IST" name="Test A" finished-at="2021-04-26T13:06:30 IST" duration-ms="4278">
+      <class name="suitea.TestA">
+        <test-method is-config="true" signature="init(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:suitea.TestA@4e7912d8]" started-at="2021-04-26T13:06:26 IST" name="init" finished-at="2021-04-26T13:06:26 IST" duration-ms="209" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5454d35e]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=TestA.testA(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:suitea.TestA@4e7912d8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="testA(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:suitea.TestA@4e7912d8]" started-at="2021-04-26T13:06:26 IST" name="testA" data-provider="datasuiteA" finished-at="2021-04-26T13:06:28 IST" duration-ms="2012" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[User 1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[pwd 1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testA -->
+        <test-method is-config="true" signature="init(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:suitea.TestA@4e7912d8]" started-at="2021-04-26T13:06:28 IST" name="init" finished-at="2021-04-26T13:06:28 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5454d35e]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=TestA.testA(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:suitea.TestA@4e7912d8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="testA(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:suitea.TestA@4e7912d8]" started-at="2021-04-26T13:06:28 IST" name="testA" data-provider="datasuiteA" finished-at="2021-04-26T13:06:30 IST" duration-ms="2002" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[IE]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[User 2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[pwd 2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testA -->
+      </class> <!-- suitea.TestA -->
+    </test> <!-- Test A -->
+    <test started-at="2021-04-26T13:06:30 IST" name="Test AA" finished-at="2021-04-26T13:06:30 IST" duration-ms="3">
+      <class name="suitea.TestAA">
+        <test-method signature="testAA(java.lang.String, java.lang.String)[pri:0, instance:suitea.TestAA@20f5239f]" started-at="2021-04-26T13:06:30 IST" name="testAA" data-provider="datasuiteA" finished-at="2021-04-26T13:06:30 IST" duration-ms="1" status="FAIL">
+          <exception class="org.testng.internal.reflect.MethodMatcherException">
+            <message>
+              <![CDATA[
+[public void suitea.TestAA.testAA(java.lang.String,java.lang.String) throws java.lang.InterruptedException] has no parameters defined but was found to be using a data provider (either explicitly specified or inherited from class level annotation).
+Data provider mismatch
+Method: testAA([Parameter{index=0, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=1, type=java.lang.String, declaredAnnotations=[]}])
+Arguments: [(java.lang.String) chrome,(java.lang.String) USer 1,(java.lang.String) pwd1]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.internal.reflect.MethodMatcherException: 
+[public void suitea.TestAA.testAA(java.lang.String,java.lang.String) throws java.lang.InterruptedException] has no parameters defined but was found to be using a data provider (either explicitly specified or inherited from class level annotation).
+Data provider mismatch
+Method: testAA([Parameter{index=0, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=1, type=java.lang.String, declaredAnnotations=[]}])
+Arguments: [(java.lang.String) chrome,(java.lang.String) USer 1,(java.lang.String) pwd1]
+at org.testng.internal.reflect.DataProviderMethodMatcher.getConformingArguments(DataProviderMethodMatcher.java:43)
+at org.testng.internal.Parameters.injectParameters(Parameters.java:925)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:34)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1175)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.internal.reflect.MethodMatcherException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAA -->
+      </class> <!-- suitea.TestAA -->
+    </test> <!-- Test AA -->
+  </suite> <!-- Suite (0) -->
+  <suite started-at="2021-04-26T13:06:30 IST" name="Suite (2)" finished-at="2021-04-26T13:06:30 IST" duration-ms="25">
+    <groups>
+      <group name="browsergroup1">
+        <method signature="TestC.testC(java.lang.String, java.lang.String)[pri:0, instance:suitec.TestC@1e683a3e]" name="testC" class="suitec.TestC"/>
+      </group> <!-- browsergroup1 -->
+      <group name="browsergroup2">
+        <method signature="TestCC.testCC(java.lang.String, java.lang.String)[pri:0, instance:suitec.TestCC@49c7b90e]" name="testCC" class="suitec.TestCC"/>
+      </group> <!-- browsergroup2 -->
+      <group name="smoke">
+        <method signature="TestC.testC(java.lang.String, java.lang.String)[pri:0, instance:suitec.TestC@1e683a3e]" name="testC" class="suitec.TestC"/>
+        <method signature="TestCC.testCC(java.lang.String, java.lang.String)[pri:0, instance:suitec.TestCC@49c7b90e]" name="testCC" class="suitec.TestCC"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2021-04-26T13:06:30 IST" name="TestC" finished-at="2021-04-26T13:06:30 IST" duration-ms="10">
+      <class name="suitec.TestC">
+        <test-method signature="testC(java.lang.String, java.lang.String)[pri:0, instance:suitec.TestC@1e683a3e]" started-at="2021-04-26T13:06:30 IST" name="testC" data-provider="datasuiteC" finished-at="2021-04-26T13:06:30 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[USer 1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[USer 2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testC -->
+        <test-method is-config="true" signature="init(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:suitec.TestC@1e683a3e]" started-at="2021-04-26T13:06:30 IST" name="init" finished-at="2021-04-26T13:06:30 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@41ab013]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=TestC.testC(java.lang.String, java.lang.String)[pri:0, instance:suitec.TestC@1e683a3e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method is-config="true" signature="init(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:suitec.TestC@1e683a3e]" started-at="2021-04-26T13:06:30 IST" name="init" finished-at="2021-04-26T13:06:30 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@41ab013]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=TestC.testC(java.lang.String, java.lang.String)[pri:0, instance:suitec.TestC@1e683a3e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="testC(java.lang.String, java.lang.String)[pri:0, instance:suitec.TestC@1e683a3e]" started-at="2021-04-26T13:06:30 IST" name="testC" data-provider="datasuiteC" finished-at="2021-04-26T13:06:30 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pwd 1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pwd 2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testC -->
+      </class> <!-- suitec.TestC -->
+    </test> <!-- TestC -->
+    <test started-at="2021-04-26T13:06:30 IST" name="Test CC" finished-at="2021-04-26T13:06:30 IST" duration-ms="9">
+      <class name="suitec.TestCC">
+        <test-method is-config="true" signature="init(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:suitec.TestCC@49c7b90e]" started-at="2021-04-26T13:06:30 IST" name="init" finished-at="2021-04-26T13:06:30 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@82ea68c]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=TestCC.testCC(java.lang.String, java.lang.String)[pri:0, instance:suitec.TestCC@49c7b90e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="testCC(java.lang.String, java.lang.String)[pri:0, instance:suitec.TestCC@49c7b90e]" started-at="2021-04-26T13:06:30 IST" name="testCC" data-provider="datasuiteC" finished-at="2021-04-26T13:06:30 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[USer 1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[USer 2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCC -->
+        <test-method is-config="true" signature="init(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:suitec.TestCC@49c7b90e]" started-at="2021-04-26T13:06:30 IST" name="init" finished-at="2021-04-26T13:06:30 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@82ea68c]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=TestCC.testCC(java.lang.String, java.lang.String)[pri:0, instance:suitec.TestCC@49c7b90e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="testCC(java.lang.String, java.lang.String)[pri:0, instance:suitec.TestCC@49c7b90e]" started-at="2021-04-26T13:06:30 IST" name="testCC" data-provider="datasuiteC" finished-at="2021-04-26T13:06:30 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pwd 1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pwd 2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCC -->
+      </class> <!-- suitec.TestCC -->
+    </test> <!-- Test CC -->
+  </suite> <!-- Suite (2) -->
+</testng-results>

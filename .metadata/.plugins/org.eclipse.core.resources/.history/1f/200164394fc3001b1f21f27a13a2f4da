@@ -1,0 +1,17 @@
+package runner;
+
+public class TestNgRunner {
+
+	
+	public void createSuiteName(String suiteName, boolean parallelTest) {
+		// create suite Name.
+		//boolean : it will help to run the test in parallel. If true test will parallel if not will ot run.
+		
+		
+		
+		
+		
+		
+		
+	}
+}

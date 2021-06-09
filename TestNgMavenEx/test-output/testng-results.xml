@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-04-22T08:22:59 IST" name="Suite" finished-at="2021-04-22T08:22:59 IST" duration-ms="0">
+    <groups>
+    </groups>
+  </suite> <!-- Suite -->
+  <suite started-at="2021-04-22T08:22:59 IST" name="Suite (1)" finished-at="2021-04-22T08:22:59 IST" duration-ms="14">
+    <groups>
+    </groups>
+    <test started-at="2021-04-22T08:22:59 IST" name="Test" finished-at="2021-04-22T08:22:59 IST" duration-ms="14">
+      <class name="test_suiteb.ValidateUserRegistration">
+        <test-method signature="validate()[pri:0, instance:test_suiteb.ValidateUserRegistration@36d585c]" started-at="2021-04-22T08:22:59 IST" name="validate" finished-at="2021-04-22T08:22:59 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate -->
+      </class> <!-- test_suiteb.ValidateUserRegistration -->
+      <class name="test_suiteb.SearchAndFindPhone">
+        <test-method signature="search(org.testng.ITestContext)[pri:1, instance:test_suiteb.SearchAndFindPhone@69fb6037]" started-at="2021-04-22T08:22:59 IST" name="search" finished-at="2021-04-22T08:22:59 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@2e8c1c9b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method signature="selectphone(org.testng.ITestContext)[pri:2, instance:test_suiteb.SearchAndFindPhone@69fb6037]" started-at="2021-04-22T08:22:59 IST" name="selectphone" finished-at="2021-04-22T08:22:59 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@2e8c1c9b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectphone -->
+        <test-method signature="Checkout()[pri:3, instance:test_suiteb.SearchAndFindPhone@69fb6037]" started-at="2021-04-22T08:22:59 IST" name="Checkout" finished-at="2021-04-22T08:22:59 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Checkout -->
+      </class> <!-- test_suiteb.SearchAndFindPhone -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite (1) -->
+  <suite started-at="2021-04-22T08:22:59 IST" name="Suite (0)" finished-at="2021-04-22T08:22:59 IST" duration-ms="97">
+    <groups>
+    </groups>
+    <test started-at="2021-04-22T08:22:59 IST" name="Test" finished-at="2021-04-22T08:22:59 IST" duration-ms="97">
+      <class name="test_suitea.CreateUser">
+        <test-method signature="createusers(java.lang.String, java.lang.String, int)[pri:0, instance:test_suitea.CreateUser@548e6d58]" started-at="2021-04-22T08:22:59 IST" name="createusers" data-provider="getData" finished-at="2021-04-22T08:22:59 IST" duration-ms="7" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createusers -->
+        <test-method signature="createusers(java.lang.String, java.lang.String, int)[pri:0, instance:test_suitea.CreateUser@548e6d58]" started-at="2021-04-22T08:22:59 IST" name="createusers" data-provider="getData" finished-at="2021-04-22T08:22:59 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mozilla]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Non Admin]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[3456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createusers -->
+        <test-method signature="deleteuser(java.lang.String, java.lang.String, int)[pri:0, instance:test_suitea.CreateUser@548e6d58]" started-at="2021-04-22T08:22:59 IST" name="deleteuser" data-provider="getData" finished-at="2021-04-22T08:22:59 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteuser -->
+        <test-method signature="deleteuser(java.lang.String, java.lang.String, int)[pri:0, instance:test_suitea.CreateUser@548e6d58]" started-at="2021-04-22T08:22:59 IST" name="deleteuser" data-provider="getData" finished-at="2021-04-22T08:22:59 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mozilla]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Non Admin]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[3456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteuser -->
+      </class> <!-- test_suitea.CreateUser -->
+      <class name="test_suitea.Login">
+        <test-method is-config="true" signature="InitializeBrowser()[pri:0, instance:test_suitea.Login@2f465398]" started-at="2021-04-22T08:22:59 IST" name="InitializeBrowser" finished-at="2021-04-22T08:22:59 IST" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InitializeBrowser -->
+        <test-method is-config="true" signature="Before_Method()[pri:0, instance:test_suitea.Login@2f465398]" started-at="2021-04-22T08:22:59 IST" name="Before_Method" finished-at="2021-04-22T08:22:59 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Before_Method -->
+        <test-method signature="doLogin()[pri:0, instance:test_suitea.Login@2f465398]" started-at="2021-04-22T08:22:59 IST" name="doLogin" finished-at="2021-04-22T08:22:59 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+        <test-method is-config="true" signature="After_Method()[pri:0, instance:test_suitea.Login@2f465398]" started-at="2021-04-22T08:22:59 IST" name="After_Method" finished-at="2021-04-22T08:22:59 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- After_Method -->
+        <test-method is-config="true" signature="Before_Method()[pri:0, instance:test_suitea.Login@2f465398]" started-at="2021-04-22T08:22:59 IST" name="Before_Method" finished-at="2021-04-22T08:22:59 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Before_Method -->
+        <test-method signature="logout()[pri:0, instance:test_suitea.Login@2f465398]" started-at="2021-04-22T08:22:59 IST" name="logout" finished-at="2021-04-22T08:22:59 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="After_Method()[pri:0, instance:test_suitea.Login@2f465398]" started-at="2021-04-22T08:22:59 IST" name="After_Method" finished-at="2021-04-22T08:22:59 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- After_Method -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:test_suitea.Login@2f465398]" started-at="2021-04-22T08:22:59 IST" name="CloseBrowser" finished-at="2021-04-22T08:22:59 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- test_suitea.Login -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite (0) -->
+</testng-results>

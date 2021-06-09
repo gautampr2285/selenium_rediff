@@ -1,0 +1,9 @@
+create portfolio
+(login,create portfolio,verify if portfolio is created)
+Delete portfolio
+(login,select the portfolio,delete the portfolio,verify if the portfolio is deleted or not)
+
+Add fresh stock
+(login,select the portfolio,Add the stock,verify in table,verify the quantity,verify avg buying price,verify transaction history)
+Modify stock
+(login,select the portfolio,Verify if the stock is present,buy/sell the stock,verify in table,verify the quantity,verify avg buying price,verify transaction history)

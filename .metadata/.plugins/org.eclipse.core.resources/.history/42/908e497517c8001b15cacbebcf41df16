@@ -1,0 +1,94 @@
+package runner;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+import org.testng.TestNG;
+import org.testng.xml.XmlClass;
+import org.testng.xml.XmlInclude;
+import org.testng.xml.XmlSuite;
+import org.testng.xml.XmlSuite.ParallelMode;
+import org.testng.xml.XmlTest;
+
+public class TestNgRunner {
+	
+	TestNG testng;
+	XmlSuite suite; //single suite
+	List<XmlSuite> allsuites; //list of all suites
+	XmlTest test; //single test case
+	List<XmlTest> allTestCase; //list of all test cases under a test suite
+	Map<String,String> testParam;
+	List<XmlClass> classes;// all the classes inside the test.	
+
+
+
+	public TestNgRunner(int suiteThreadPool) {  //constructor for TestNgRunner
+		
+		allsuites = new ArrayList<XmlSuite>();//All suites and initialized the list. it is empty list
+		testng = new TestNG();//initialize testng
+		testng.setSuiteThreadPoolSize(suiteThreadPool);//How many parallel suites will run
+		testng.setXmlSuites(allsuites);
+		
+	}
+
+	public void createSuiteName(String suiteName, boolean parallelTest) {
+		// create suite Name.
+		//boolean : it will help to run the test in parallel. If true test will parallel if not will not run.
+		suite = new XmlSuite();
+		suite.setName(suiteName);
+		
+		if(parallelTest) {
+			
+			suite.setParallel(ParallelMode.TESTS);//(To run the suite parallely)
+			
+			allsuites.add(suite);//Add suite in allsuites
+		}
+		
+	}
+	
+	public void addTest(String TestName) {
+		//this finction will have test under the particular suite.
+		 test = new XmlTest(suite);
+		 test.setName(TestName);
+		 testParam = new HashMap<String, String>();//intialize the test parameter
+		 classes = new ArrayList<XmlClass>();//intialize the test classes
+		 test.setParameters(testParam); //blank Parameter
+		 test.setXmlClasses(classes); //blank classes
+		 
+		 
+		
+	}
+	
+	
+	public void addTestParam(String name,String value) {
+		testParam.put(name, value);
+		
+	}
+	
+	
+	public void addTestClass(String ClassName,List<String> includedMethods) {
+		//this will add test class and methods under the one test.
+		//includedMethods will add methods in the test.
+		
+		XmlClass TestClass = new XmlClass();
+		List<XmlInclude> ClassMethod = new ArrayList<XmlInclude>();
+		int priority =1;
+		for(String mthodName:includedMethods) {
+			XmlInclude method = new XmlInclude(mthodName, priority);
+			ClassMethod.add(method);
+			priority++;
+		}
+		
+		TestClass.setIncludedMethods(ClassMethod);
+		classes.add(TestClass);
+	}
+
+
+
+	public void addListner(String listener) {
+		
+		
+	}
+}

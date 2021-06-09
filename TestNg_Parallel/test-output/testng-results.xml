@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-05-17T08:47:05 IST" name="Suite" finished-at="2021-05-17T08:47:05 IST" duration-ms="0">
+    <groups>
+    </groups>
+  </suite> <!-- Suite -->
+  <suite started-at="2021-05-17T08:47:00 IST" name="Suite (1)" finished-at="2021-05-17T08:47:05 IST" duration-ms="5043">
+    <groups>
+    </groups>
+    <test started-at="2021-05-17T08:47:00 IST" name="TestB3" finished-at="2021-05-17T08:47:05 IST" duration-ms="5043">
+      <class name="testcase2.TestB3">
+        <test-method signature="testB3()[pri:0, instance:testcase2.TestB3@6fe7aac8]" started-at="2021-05-17T08:47:00 IST" name="testB3" finished-at="2021-05-17T08:47:05 IST" duration-ms="5006" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testB3 -->
+      </class> <!-- testcase2.TestB3 -->
+    </test> <!-- TestB3 -->
+    <test started-at="2021-05-17T08:47:00 IST" name="TestB2" finished-at="2021-05-17T08:47:05 IST" duration-ms="5043">
+      <class name="testcase2.TestB2">
+        <test-method signature="testB2()[pri:0, instance:testcase2.TestB2@1c93084c]" started-at="2021-05-17T08:47:00 IST" name="testB2" finished-at="2021-05-17T08:47:05 IST" duration-ms="5006" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testB2 -->
+      </class> <!-- testcase2.TestB2 -->
+    </test> <!-- TestB2 -->
+    <test started-at="2021-05-17T08:47:00 IST" name="TestB1" finished-at="2021-05-17T08:47:05 IST" duration-ms="5043">
+      <class name="testcase2.TestB1">
+        <test-method signature="testB1()[pri:0, instance:testcase2.TestB1@3aefe5e5]" started-at="2021-05-17T08:47:00 IST" name="testB1" finished-at="2021-05-17T08:47:05 IST" duration-ms="5014" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testB1 -->
+      </class> <!-- testcase2.TestB1 -->
+    </test> <!-- TestB1 -->
+  </suite> <!-- Suite (1) -->
+  <suite started-at="2021-05-17T08:47:00 IST" name="Suite (0)" finished-at="2021-05-17T08:47:05 IST" duration-ms="5043">
+    <groups>
+    </groups>
+    <test started-at="2021-05-17T08:47:00 IST" name="TestA3" finished-at="2021-05-17T08:47:05 IST" duration-ms="5043">
+      <class name="testCases.TestA3">
+        <test-method signature="testA3()[pri:0, instance:testCases.TestA3@4690b489]" started-at="2021-05-17T08:47:00 IST" name="testA3" finished-at="2021-05-17T08:47:05 IST" duration-ms="5007" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testA3 -->
+      </class> <!-- testCases.TestA3 -->
+    </test> <!-- TestA3 -->
+    <test started-at="2021-05-17T08:47:00 IST" name="TestA2" finished-at="2021-05-17T08:47:05 IST" duration-ms="5043">
+      <class name="testCases.TestA2">
+        <test-method signature="testA2()[pri:0, instance:testCases.TestA2@4b14c583]" started-at="2021-05-17T08:47:00 IST" name="testA2" finished-at="2021-05-17T08:47:05 IST" duration-ms="5007" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testA2 -->
+      </class> <!-- testCases.TestA2 -->
+    </test> <!-- TestA2 -->
+    <test started-at="2021-05-17T08:47:00 IST" name="TestA1" finished-at="2021-05-17T08:47:05 IST" duration-ms="5043">
+      <class name="testCases.TestA1$testA1">
+        <test-method signature="testA2()[pri:0, instance:testCases.TestA1$testA1@71b1176b]" started-at="2021-05-17T08:47:00 IST" name="testA2" finished-at="2021-05-17T08:47:05 IST" duration-ms="5008" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testA2 -->
+      </class> <!-- testCases.TestA1$testA1 -->
+    </test> <!-- TestA1 -->
+  </suite> <!-- Suite (0) -->
+</testng-results>

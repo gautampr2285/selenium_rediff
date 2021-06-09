@@ -1,0 +1,28 @@
+package runner;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Runner {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		TestNgRunner testng = new TestNgRunner(1);
+		//we will create construcot for TestNgRunner which takes int value. It defines the number of test suites run parallely
+		
+		testng.createSuiteName("Portfolio_Suite", false);
+		//testng.addListner("listener.CustomListner");
+		testng.addTest("Add_new_stock");
+		testng.addTestParam("action", "addstock");
+		List<String> includedMethods = new ArrayList<String>();
+		testng.addTestClass("testRediff.PortFolioManagement", includedMethods);
+		includedMethods = new ArrayList<String>();
+		includedMethods.add("selectPortfolio");
+		testng.addTestClass("testRediff.StockManagement", includedMethods);
+		includedMethods.add("AddStock");
+		includedMethods.add("VerifyStockInList");
+
+	}
+
+}

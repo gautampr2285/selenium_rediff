@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Booking Suite">
+  <test  name="Create Booking-Without discount">
+  <parameter name ="action" value ="Without-discount"/>
+    <classes>
+      <class name="testcases.BookingHotel">
+      	<methods>
+      		<include name = "SearchHotel"/>
+      		<include name = "SelectHotel"/>
+      		<include name = "EnterGuestInfo"/>
+      	</methods>
+      </class>
+      <class name="testcases.PaymentManager">
+      	<methods>
+      		<include name = "Payment"/>
+      	</methods>
+      </class>
+      <class name="testcases.CustomerCommunication">
+      	<methods>
+      		<include name = "checkMail"/>
+      	</methods>
+      </class>
+      
+    </classes>
+  </test> <!-- Test Cases -->
+  
+   <test  name="Create Booking: With discount">
+   <parameter name ="action" value ="With discount"/>
+    <classes>
+      <class name="testcases.BookingHotel">
+      	<methods>
+      		<include name = "SearchHotel"/>
+      		<include name = "SelectHotel"/>
+      		<include name = "EnterGuestInfo"/>
+      	</methods>
+      </class>
+      <class name="testcases.PaymentManager">
+      	<methods>
+      		<include name = "Discount"/>
+      		<include name = "Payment"/>
+      	</methods>
+      </class>
+      <class name="testcases.CustomerCommunication">
+      	<methods>
+      		<include name = "checkMail"/>
+      	</methods>
+      </class>
+      
+    </classes>
+  </test> <!-- Test Cases -->
+  
+   <test  name="Create Booking: Pay@hotel , Apply discount ">
+   	<parameter name ="action" value ="Pay@hotel"/>
+    <classes>
+      <class name="testcases.BookingHotel">
+      	<methods>
+      		<include name = "SearchHotel"/>
+      		<include name = "SelectHotel"/>
+      		<include name = "EnterGuestInfo"/>
+      	</methods>
+      </class>
+      <class name="testcases.PaymentManager">
+      	<methods>
+      		<include name = "Discount"/>
+      		<include name = "Payment"/>
+      	</methods>
+      </class>
+      <class name="testcases.CustomerCommunication">
+      	<methods>
+      		<include name = "checkMail"/>
+      	</methods>
+      </class>
+      
+    </classes>
+  </test> <!-- Test Cases -->
+  
+  <test  name="Create Booking: Instant Pay,Apply discount ">
+  <parameter name ="action" value ="Instant Pay"/>
+   	 <classes>
+      <class name="testcases.BookingHotel">
+      	<methods>
+      		<include name = "SearchHotel"/>
+      		<include name = "SelectHotel"/>
+      		<include name = "EnterGuestInfo"/>
+      	</methods>
+      </class>
+      <class name="testcases.PaymentManager">
+      	<methods>
+      		<include name = "Discount"/>
+      		<include name = "Payment"/>
+      	</methods>
+      </class>
+      <class name="testcases.CustomerCommunication">
+      	<methods>
+      		<include name = "checkMail"/>
+      	</methods>
+      </class>
+      
+    </classes>
+  </test> <!-- Test Cases -->
+  
+  <test  name="Create Booking: Modify Booking,Apply discount, Pay@hotel ">
+  <parameter name ="action" value ="Pay@hotel"/>
+   	 <classes>
+      <class name="testcases.BookingHotel">
+      	<methods>
+      		<include name = "loadBooking"/>
+      		<include name = "SelectHotel"/>
+      		<include name = "EnterGuestInfo"/>
+      	</methods>
+      </class>
+      <class name="testcases.PaymentManager">
+      	<methods>
+      		<include name = "Discount"/>
+      		<include name = "Payment"/>
+      	</methods>
+      </class>
+      <class name="testcases.CustomerCommunication">
+      	<methods>
+      		<include name = "checkMail"/>
+      	</methods>
+      </class>
+      
+    </classes>
+  </test> <!-- Test Cases -->
+  
+</suite> <!-- Booking Suite -->
